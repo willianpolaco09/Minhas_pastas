@@ -4,7 +4,6 @@ process.stdout.write("digite sua idade: ");
 //Ler o que o usuário digitou
 process.stdin.once("data", function (data) {
     const YEAR = 2023;
-
     //Ler a idade
     let idade = parseInt(data,toString(). trim());
     let ano = YEAR - idade;
